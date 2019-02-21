@@ -67,7 +67,7 @@ class JokeTuto(object):
     # --> Master callback function, triggered everytime an intent is recognized
     def master_intent_callback(self,hermes, intent_message):
         coming_intent = intent_message.intent.intent_name
-        if coming_intent == 'askJoke':
+        if coming_intent == 'WhiteDryas:askJoke':
             self.askJoke_callback(hermes, intent_message)
 
         # more callback and if condition goes here...
